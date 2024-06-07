@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.quicksand {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+}
+
+#instructions {
+    margin-bottom: 100px;
+}
+
+#insertionAreas {
+    margin-bottom: 200px;
+}
+
+#photoSelection {
+    margin-bottom: 200px;
+}
+
+.insertionText, .selectionText {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.insertionArea {
+    width: 100px;
+    height: 175px;
+    background-color: #fff;
+    border: 2px dashed #aaa;
+    margin: 20px; /* Increase the margin to add more space */
+    display: inline-block;
+    position: relative;
+}
+
+.photo {
+    width: 100px;
+    height: 175px;
+    margin: 20px; /* Increase the margin to add more space */
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.photo:hover {
+    transform: scale(1.1);
+}
+
+#nextLink {
+    text-align: right;
+}
+
+#nextBtn {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+}

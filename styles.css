@@ -1,0 +1,45 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 200px;
+    
+    
+}
+
+button {
+    background-color: #ffffff;
+    color: rgb(233, 48, 48);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+#noButton {
+    position: relative;
+    margin-right: px;
+    transition: 0.3s;
+    background-color: antiquewhite;
+    color: rgb(0, 0, 0) ;
+}
+
+#yesButton {
+    position: relative;
+    margin-right: 1px;
+    background-color: antiquewhite;
+    color: rgb(0, 0, 0) ;
+}
+
+#goodGirlButton
+{
+    background-color: rgb(104, 194, 116);
+    color: #ffffff;
+}
+

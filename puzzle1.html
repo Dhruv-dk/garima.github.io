@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle 1</title>
+    <link rel="stylesheet" href="puzzle1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="instructions">
+            <p class="quicksand">Arrange these photos in the order in which they were taken. The photos should be arranged from left to right (most recent one to the left).</p>
+        </div>
+        <div id="insertionAreas">
+            <p class="insertionText quicksand">Insert here:</p>
+            <div class="insertionArea" id="area1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="insertionArea" id="area2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="insertionArea" id="area3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="insertionArea" id="area4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="insertionArea" id="area5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="insertionArea" id="area6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="insertionArea" id="area7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="insertionArea" id="area8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="insertionArea" id="area9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="insertionArea" id="area10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <!-- Add more insertion areas as needed -->
+        </div>
+        
+        <div id="photoSelection">
+            <p class="selectionText quicksand">Select Photos:</p>
+            <div id="bottomArea">
+                <img class="photo" src="7.jpg" draggable="true" ondragstart="drag(event)">
+                <img class="photo" src="2.jpg" draggable="true" ondragstart="drag(event)">
+                <img class="photo" src="4.jpg" draggable="true" ondragstart="drag(event)">
+                <img class="photo" src="6.jpg" draggable="true" ondragstart="drag(event)">
+                <img class="photo" src="9.jpg" draggable="true" ondragstart="drag(event)">
+                <img class="photo" src="1.jpg" draggable="true" ondragstart="drag(event)">
+                <img class="photo" src="10.jpg" draggable="true" ondragstart="drag(event)">
+                <img class="photo" src="5.jpg" draggable="true" ondragstart="drag(event)">
+                <img class="photo" src="3.jpg" draggable="true" ondragstart="drag(event)">
+                <img class="photo" src="8.jpg" draggable="true" ondragstart="drag(event)">
+                <!-- Add more photos as needed -->
+            </div>
+        </div>
+        <div id="nextLink" style="margin-bottom: 20px;">
+            <a href="puzzle2.html" id="nextBtn">Next</a>
+        </div>
+    </div>
+
+    <script src="puzzle1.js"></script>
+</body>
+</html>
